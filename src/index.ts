@@ -1,21 +1,20 @@
-import {Blend} from './blend';
-import {CAM16, HCT} from './hct';
-import {CorePalette, TonalPalette} from './palettes';
+import { Blend } from "./blend";
+import { CAM16, HCT } from "./hct";
+import { CorePalette, TonalPalette } from "./palettes";
 
 import {
   LabPointProvider,
   QuantizerCelebi,
   QuantizerMap,
   QuantizerWsmeans,
-  QuantizerWu
-} from './quantize';
+  QuantizerWu,
+} from "./quantize";
 
+import { SchemeAndroid, Scheme } from "./scheme";
 
-import {SchemeAndroid, Scheme} from './scheme';
+import { Score } from "./score";
 
-import {Score} from './score';
-
-import {colorUtils, mathUtils} from './utils';
+import { colorUtils, mathUtils } from "./utils";
 
 export {
   Blend,
@@ -32,5 +31,5 @@ export {
   Scheme,
   Score,
   colorUtils,
-  mathUtils
+  mathUtils,
 };
